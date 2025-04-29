@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['result_0',['Result',['../classeasynav__common_1_1Result.html',1,'easynav_common']]]
+  ['navstate_0',['NavState',['../structeasynav_1_1NavState.html',1,'easynav']]]
 ];

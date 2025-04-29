@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['plannernode_0',['PlannerNode',['../classeasynav__planner_1_1PlannerNode.html#af704ae61f2177a980bf10e15c267159d',1,'easynav_planner::PlannerNode']]],
-  ['publish_5fdynamic_5fmap_1',['publish_dynamic_map',['../classeasynav__maps__manager_1_1MapsTypeBase.html#af27049e3cfc837fdce6fbd476b5a060c',1,'easynav_maps_manager::MapsTypeBase']]],
-  ['publish_5fstatic_5fmap_2',['publish_static_map',['../classeasynav__maps__manager_1_1MapsTypeBase.html#a488c3c519541c01fa18830c7385ba06b',1,'easynav_maps_manager::MapsTypeBase']]]
+  ['main_0',['main',['../system__main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'system_main.cpp']]],
+  ['map_1',['map',['../classeasynav_1_1Result.html#a12cd7e3a74c6ddc947cb7e94c587bfea',1,'easynav::Result']]],
+  ['mapsmanagernode_2',['MapsManagerNode',['../classeasynav_1_1MapsManagerNode.html#a03a1cd33d6a3eaa802fa457a172cc646',1,'easynav::MapsManagerNode']]],
+  ['mapstypebase_3',['MapsTypeBase',['../classeasynav_1_1MapsTypeBase.html#ae083a5e858aaea0f6dede71e82cbed13',1,'easynav::MapsTypeBase']]]
 ];

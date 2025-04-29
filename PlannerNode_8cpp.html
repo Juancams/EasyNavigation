@@ -89,47 +89,47 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">PlannerNode.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p>Implementation of the PlannerNode class.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &quot;rclcpp/rclcpp.hpp&quot;</code><br />
-<code>#include &quot;rclcpp/macros.hpp&quot;</code><br />
-<code>#include &quot;rclcpp_lifecycle/lifecycle_node.hpp&quot;</code><br />
+<div class="textblock"><code>#include &quot;nav_msgs/msg/path.hpp&quot;</code><br />
+<code>#include &quot;pluginlib/class_loader.hpp&quot;</code><br />
+<code>#include &quot;lifecycle_msgs/msg/transition.hpp&quot;</code><br />
+<code>#include &quot;lifecycle_msgs/msg/state.hpp&quot;</code><br />
 <code>#include &quot;<a class="el" href="PlannerNode_8hpp_source.html">easynav_planner/PlannerNode.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for PlannerNode.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="PlannerNode_8cpp__incl.png" border="0" usemap="#aeasynav__planner_2src_2easynav__planner_2PlannerNode_8cpp" alt=""/></div>
 <map name="aeasynav__planner_2src_2easynav__planner_2PlannerNode_8cpp" id="aeasynav__planner_2src_2easynav__planner_2PlannerNode_8cpp">
-<area shape="rect" title="Implementation of the PlannerNode class." alt="" coords="159,5,384,46"/>
-<area shape="rect" title=" " alt="" coords="5,175,125,201"/>
-<area shape="poly" title=" " alt="" coords="160,45,114,65,95,79,78,96,69,110,65,127,64,160,58,160,60,126,64,108,74,92,91,75,112,60,157,40"/>
-<area shape="rect" title=" " alt="" coords="157,175,285,201"/>
-<area shape="poly" title=" " alt="" coords="296,45,310,61,322,80,328,100,323,121,299,150,269,170,266,166,296,146,319,119,322,100,317,82,306,64,292,48"/>
-<area shape="rect" title=" " alt="" coords="312,168,474,208"/>
-<area shape="poly" title=" " alt="" coords="298,45,344,92,364,122,380,152,376,155,360,125,340,96,294,48"/>
-<area shape="rect" href="PlannerNode_8hpp.html" title="Declaration of the PlannerNode lifecycle node, ROS 2 interface for EasyNav core." alt="" coords="88,94,309,120"/>
-<area shape="poly" title=" " alt="" coords="255,48,222,84,218,81,252,45"/>
-<area shape="poly" title=" " alt="" coords="179,122,100,169,97,165,177,118"/>
-<area shape="poly" title=" " alt="" coords="204,119,216,159,211,161,199,121"/>
-<area shape="poly" title=" " alt="" coords="229,118,331,159,329,164,227,123"/>
+<area shape="rect" title="Implementation of the PlannerNode class." alt="" coords="342,5,568,46"/>
+<area shape="rect" title=" " alt="" coords="5,102,169,127"/>
+<area shape="poly" title=" " alt="" coords="372,49,154,100,153,95,370,44"/>
+<area shape="rect" title=" " alt="" coords="193,102,362,127"/>
+<area shape="poly" title=" " alt="" coords="416,49,317,97,315,92,414,44"/>
+<area shape="rect" title=" " alt="" coords="387,94,523,135"/>
+<area shape="poly" title=" " alt="" coords="458,47,458,78,452,78,452,47"/>
+<area shape="rect" title=" " alt="" coords="547,94,683,135"/>
+<area shape="poly" title=" " alt="" coords="493,44,567,84,564,89,490,49"/>
+<area shape="rect" href="PlannerNode_8hpp.html" title="Declaration of the PlannerNode lifecycle node, ROS 2 interface for EasyNav core." alt="" coords="707,102,928,127"/>
+<area shape="poly" title=" " alt="" coords="538,44,753,95,751,100,537,49"/>
+<area shape="rect" title=" " alt="" coords="586,190,713,216"/>
+<area shape="poly" title=" " alt="" coords="795,130,688,185,686,180,793,125"/>
+<area shape="rect" title=" " alt="" coords="737,183,898,223"/>
+<area shape="poly" title=" " alt="" coords="820,128,820,168,815,168,815,128"/>
+<area shape="rect" title=" " alt="" coords="923,183,1115,223"/>
+<area shape="poly" title=" " alt="" coords="847,125,960,174,958,179,845,130"/>
 </map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceeasynav__planner.html">easynav_planner</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceeasynav.html">easynav</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:ad09d90f1fe35c9e2f2fd7fc1902312f4" id="r_ad09d90f1fe35c9e2f2fd7fc1902312f4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceeasynav__planner.html#ad09d90f1fe35c9e2f2fd7fc1902312f4">CallbackReturnT</a> = rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn</td></tr>
-<tr class="separator:ad09d90f1fe35c9e2f2fd7fc1902312f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of the PlannerNode class. </p>

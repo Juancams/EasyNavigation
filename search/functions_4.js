@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['has_5ferror_0',['has_error',['../classeasynav__common_1_1Result.html#a1638ad74ba770725108c9e3b0ff88e08',1,'easynav_common::Result']]],
-  ['has_5fvalue_1',['has_value',['../classeasynav__common_1_1Result.html#a78ae320e307335bd655f8767da418e36',1,'easynav_common::Result']]]
+  ['fuse_5fperceptions_0',['fuse_perceptions',['../namespaceeasynav.html#a37b5b73a7290c6d8860632ea03f0d32f',1,'easynav::fuse_perceptions(const Perceptions &amp;perceptions, const std::string &amp;target_frame, tf2_ros::Buffer &amp;tf_buffer, sensor_msgs::msg::PointCloud2 &amp;output_msg)'],['../namespaceeasynav.html#ac47bcbda464df4cb251b54c74d3f899a',1,'easynav::fuse_perceptions(const std::vector&lt; std::shared_ptr&lt; Perception &gt; &gt; &amp;perceptions, const std::string &amp;target_frame, tf2_ros::Buffer &amp;tf_buffer, sensor_msgs::msg::PointCloud2 &amp;output_msg)']]]
 ];
